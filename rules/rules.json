@@ -1,0 +1,26 @@
+[
+    {
+      "ruleName": "contentTypeReponseOK",
+      "functionName": "validateContentTypeInResponse",
+      "target": "Action",
+      "intent": "Ensuring Content-Type part of response"
+    },
+    {
+      "ruleName": "logTokenOK",
+      "functionName": "validateLogTokenInResponse",
+      "target": "Action",
+      "intent": "Ensuring LogToken is included in reponse Headers are valid"
+    },
+    {
+      "ruleName": "logTokenCorrellationOK",
+      "functionName": "validateProperCorellation",
+      "target": "Action",
+      "intent": "Ensuring correlation for LogToken Headers are valid"
+    },
+    {
+      "ruleName": "statusCodesOK",
+      "functionName": "validateProperVerbStatusCode",
+      "target": "Action",
+      "intent": "A valid subset of `status codes` will enable faster evolution potential for service"
+    }
+  ]
